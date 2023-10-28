@@ -1,0 +1,149 @@
+/* CSS coding for styling Rahaf CV */
+
+body {
+   margin: 25px;
+   padding: 25px;
+   background-color: #ebf0ea;
+}
+
+header {
+   background-color: #9cb596;
+   padding: 0;
+   text-align: center;
+   position: fixed;
+   width: 91.5%;
+   top: 0;
+}
+
+.img {
+   max-width: 100%;
+   height: auto;
+   margin-bottom: 0;
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+
+section {
+   background-color: #7d8b7a;
+   padding: 3px;
+   margin-bottom: 5px;
+   margin-top: 5px;
+}
+
+#personalInfo {
+   margin-top: 150px;
+}
+
+nav ul {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+nav ul li {
+   display: inline-block;
+   margin-right: 20px;
+}
+
+nav ul li a {
+   color: #353d338a;
+   text-decoration: none;
+   font-size: 20px;
+   align-self: hover;
+}
+
+ul li a:hover {
+   color: #eaeaea;
+}
+
+h1 {
+   color: #ebf0ea;
+   font-size: 30px;
+   text-decoration: overline;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h2 {
+   margin-top: 50;
+   color: #ebf0eaa5;
+   border: #6d7e69a1 solid;
+   text-align: center;
+   font-size: large;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+   color: #353d33ac;
+   text-align: initial;
+   font-size: medium;
+   text-decoration: none;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-top: 10px;
+}
+
+.space3 {
+   margin-left: 30px;
+}
+
+.spacep {
+   margin-left: 27px;
+}
+
+h4 {
+   color: #353d33ac;
+   text-align: center;
+   font-size: large;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+ol li {
+   list-style-type: disc;
+}
+
+li {
+   margin-top: 20px;
+   list-style-type: circle;
+   color: #353d33ac;
+   text-align: left;
+   font-size: large;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p,
+ul li a,
+ul li {
+   margin-bottom: 20px;
+   color: #2a2a2ab9;
+   text-align: left;
+   font-size: 15px;
+   text-decoration: none;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.conList {
+   display: flex;
+   list-style-type: none;
+   padding: 30px;
+   margin: 10px;
+}
+
+.conList li {
+   margin-right: 200px;
+}
+
+.conImg {
+   opacity: 0.3;
+   transition: opacity 0.2s ease;
+}
+
+.conImg:hover {
+   opacity: 0.7;
+}
+
+footer {
+   background-color: #9cb596;
+   padding: 40px;
+   text-align: center;
+}
